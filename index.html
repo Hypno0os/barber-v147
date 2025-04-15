@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Barbershop</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<div class="top-bar container-fluid py-2 px-3 d-flex justify-content-between align-items-center">
+  <img src="logo.jpg" alt="Logo" height="60">
+  <form class="search-bar" role="search">
+    <input class="form-control" type="search" placeholder="Rechercher" aria-label="Search">
+    <img src="search.svg" alt="Search" class="search-icon-end">
+  </form>
+</div>
+<nav class="navbar d-lg-none navbar-expand-lg menu-bar py-2 px-3">
+  <div class="container-fluid d-flex justify-content-between align-items-center">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMobile">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <img src="unnamed.jpg" alt="Moustache" height="25">
+  </div>
+  <div class="collapse navbar-collapse" id="navbarMobile">
+    <ul class="navbar-nav px-3">
+      <li class="nav-item"><a class="nav-link" href="#">Accueil</a></li>
+      <li class="nav-item"><a class="nav-link" href="#">Produits</a></li>
+      <li class="nav-item"><a class="nav-link" href="#">Tarif</a></li>
+      <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+<nav class="navbar d-none d-lg-flex menu-bar py-2 px-3">
+  <div class="container-fluid d-flex justify-content-between align-items-center w-100">
+    <ul class="navbar-nav flex-row">
+      <li class="nav-item me-4"><a class="nav-link" href="#">Accueil</a></li>
+      <li class="nav-item me-4"><a class="nav-link" href="#">Produits</a></li>
+      <li class="nav-item me-4"><a class="nav-link" href="#">Tarif</a></li>
+      <li class="nav-item me-4"><a class="nav-link" href="#">Contact</a></li>
+    </ul>
+    <img src="unnamed.jpg" alt="Moustache" height="25">
+  </div>
+</nav>
+<div class="navbar-separator"></div>
+<section class="hero text-center">
+  <img src="bandeau.jpg" class="w-100 img-fluid" alt="Barbershop" />
+  <a href="#" class="btn btn-lg bouton-hero">PRENDRE RENDEZ-VOUS</a>
+</section>
+<section class="container my-5">
+  <h2 class="section-title">Présentation</h2>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta quos dolorem, veniam vero esse repellat quod eligendi ut repudiandae eos sed corrupti quas ullam dolore sunt assumenda aspernatur earum ad!</p>
+  <p>Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
+</section>
+<section class="container my-5">
+  <h2 class="section-title">Nos services</h2>
+  <div class="row g-4">
+    <div class="col-md-4">
+      <div class="card h-100 text-center">
+        <img src="Barbier_2.jpg" class="card-img-top" alt="Rasage">
+        <div class="card-body d-flex flex-column justify-content-between">
+          <p class="card-text text-start">Un vrai rasage à l'ancienne avec des produits et accessoires naturels.</p>
+          <div class="d-flex justify-content-end">
+            <a href="#" class="btn mt-3">TARIF</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card h-100 text-center">
+        <img src="barbier.jpg" class="card-img-top" alt="Taille de barbe">
+        <div class="card-body d-flex flex-column justify-content-between">
+          <p class="card-text text-start">Une taille de barbe réalisée aux ciseaux avec du matériel de haute qualité.</p>
+          <div class="d-flex justify-content-end">
+            <a href="#" class="btn mt-3">TARIF</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card h-100 text-center">
+        <img src="Image entretien.jpg" class="card-img-top" alt="Entretien">
+        <div class="card-body d-flex flex-column justify-content-between">
+          <p class="card-text text-start">Entretien de la barbe</p>
+          <div class="d-flex justify-content-end">
+            <a href="#" class="btn mt-3">TARIF</a>
+          </div>
+        </div>
+      </div>
+    </div>    
+  </div>
+</section>
+<footer class="pt-4">
+  <div class="container">
+    <div class="row">
+      <div class="col-6 col-md-3 mb-3">
+        <img src="logo.jpg" alt="Logo Barbershop" class="footer-logo">
+      </div>
+      <div class="col-6 col-md-3 mb-3">
+        <h5>Navigation</h5>
+        <ul class="list-unstyled">
+          <li><a href="#">Accueil</a></li>
+          <li><a href="#">Produits</a></li>
+          <li><a href="#">Tarif</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-md-3 mb-3">
+        <h5>Infos légales</h5>
+        <ul class="list-unstyled">
+          <li><a href="#">Données personnelles</a></li>
+          <li><a href="#">Mentions légales</a></li>
+          <li><a href="#">Conditions générales</a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-md-3 mb-3">
+        <h5>Suivez-nous</h5>
+        <div class="social-icons d-flex gap-2">
+          <a href="#"><img src="instagram.png" alt="Instagram" /></a>
+          <a href="#"><img src="facebook.png" alt="Facebook" /></a>
+          <a href="#"><img src="xlogo.png" alt="Twitter/X" /></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom text-center py-3">
+    Copyright © 2025 | Tous droits réservés
+  </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
